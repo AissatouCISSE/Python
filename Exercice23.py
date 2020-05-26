@@ -1,0 +1,11 @@
+N = int(input("Entrer n"))
+w = 2
+u = 2
+v = 2
+i=2
+while(i<=N):
+    w = u + v
+    u = v
+    v = w
+    i=i+1
+print("F" , N , "=" , w)
